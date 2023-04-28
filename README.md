@@ -1,106 +1,53 @@
 # Francisco_Gonzalez_FSWebDev_Portfolio
 
-## Your Task
+## Description
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+In an everexpanding world of technology. Newer, more advanced features arise from research into user stories. This project is not the exception to this rule. As the human experience teaches us that there's a plethora of privileges provided for abled people, we have grown to understand that there's demand for newer technologies that adhere to empathetic standards.  
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+ This project was built to create an entry-level presentation as to what our formal portfolio is going to develop over time. 
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+This code under development, has taught me to understand yet, doubt the reasons we reach our goals in diferent ways, as a formal teacher, this is an exciting opportunity to grow in this industry.
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+## Installation
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
+Step 1: Follow link to find repository:
+https://github.com/QuitoMusic/Francisco_Gonzalez_FSWebDev_Portfolio.git
 
+Step 2: Click the button that says Code and clone the repository.
 
-## User Story
+step 3: Go to VScode's terminal and type: git clone <Paste clone here>
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+Step 4: Clone should be avaiable in your VScode for developer contribution.
 
+## Usage
 
-## Acceptance Criteria
+To access webpage please follow the link:
+https://quitomusic.github.io/Francisco_Gonzalez_FSWebDev_Portfolio/
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+Website Screenshot:
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+![Horiseon Webpage Screenshot](./assets/images/Screenshot%202023-04-27%20at%2011.09.02%20PM.png)
 
+## Credits
 
-## Mock-Up
+Web refferences:
 
-The following animation shows the web application's appearance and functionality:
+1. Responsive Web design images: https://www.w3schools.com/css/css_rwd_images.asp
 
-![portfolio demo](./assets/images/02-advanced-css-homework-demo.gif)
+2. Remove underline on links: https://kb.blackbaud.com/knowledgebase/Article/103613
 
+3. Increase space between list elements: https://stackoverflow.com/questions/23506141/having-trouble-increasing-spacing-between-horizontal-menu-items-with-css
 
-## Grading Requirements
+4. Mountain PNG: https://www.google.com/search?sxsrf=APwXEddfj7GRTjAUTe2cYOdXwSoSq-axvQ:1682289427828&q=png+mountain+icon&tbm=isch&sa=X&ved=2ahUKEwii5oS-iMH-AhXEfDABHfx5BJ8Q0pQJegQIDRAB&biw=1440&bih=764&dpr=2#imgrc=7Zh3lXSsGrv1GM
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+5. List decoration https://www.w3schools.com/css/css_link.asp
 
-This Challenge is graded based on the following criteria: 
+6. How to center an image on CSS: https://www.w3schools.com/howto/howto_css_image_center.asp
 
-### Technical Acceptance Criteria: 40%
+7 Hot to crop an image on CSS: https://www.educative.io/answers/how-to-crop-an-image-in-css
 
-* Satisfies all of the above acceptance criteria.
+8. How to add border to image: https://www.w3schools.com/howto/howto_css_border_image.asp
 
-### Deployment: 32%
+9. Bear Emoji: https://emojipedia.org/bear/#:~:text=A%20friendly%2C%20cartoon%2Dstyled%20face,used%20with%20an%20affectionate%20tone.
 
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+10. Javascript image: https://www.tutorialrepublic.com/javascript-tutorial/
