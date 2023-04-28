@@ -1,0 +1,27 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+header, nav, html, body, div, h1, h2, h3, h4, p, a, img, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+:focus {
+    outline: 0;
+  }

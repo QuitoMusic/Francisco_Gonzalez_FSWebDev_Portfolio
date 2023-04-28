@@ -1,0 +1,168 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: black; 
+}
+
+ footer {
+        text-align: center;
+        font-size: 30px;
+        background-color:lightgrey;
+        position:relative;
+        top: 550px;
+        width: 100%;
+        height: 80px   
+    }
+    
+header{
+    display: flex;
+    position: relative;
+    background-color:lightgrey;
+    width: 100%;
+    height: 80px  
+    
+}
+
+#mountain_icon{
+    display:flex;
+    margin-left: 20px;
+}
+
+#name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    left: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#explore {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+.navlinks{
+    position: absolute;
+    display: flex;
+    top: 25px;
+    right: 20px;
+    margin: 0;
+    list-style: none;
+  }
+
+#profile_pic {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+#about_me { 
+    font-size: 70px;
+    position:relative ;
+    text-indent: 11px;
+    top: 130px;
+    left: 110px;
+    width: 425px;
+    margin-bottom: 40px;
+}
+
+.parragraph  {
+    position:relative;
+    font-size: 25px;
+    width: 950px;
+    left: 170px;
+    top:150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#projects {
+    font-size: 70px;
+    position:relative;
+    text-indent: 11px;
+    top: 220px;
+    width: 425px;
+    margin-bottom: 40px;
+}
+
+#hire_me {
+    font-size: 70px;
+    position:relative;
+    text-indent: 11px;
+    top: 600px;
+    width: 425px;
+    margin-bottom: 300px;
+}
+
+.project_1 {
+    margin-left: 200px;
+    top: 200px;
+    position: relative;
+}
+
+.project_2 {
+    top: 520px;
+    right: 1000px;
+    position: relative;
+}
+
+.project_3 {
+    top: 520px;
+    right: 1000px;
+    position: relative;
+}
+
+.horiseon_image {
+    margin-top: 40px;
+    object-fit: cover;
+    height: 300px;
+    border: 10px solid lightgrey;
+    top: 200px;
+    width: 1000px;
+}
+
+.javascript_image {
+    margin-top: 40px;
+    object-fit: cover;
+    height: 300px;
+    border: 10px solid lightgrey;
+    top: 200px;
+    width: 500px;
+}
+
+.mountain_image {
+    margin-top: 40px;
+    object-fit: cover;
+    height: 300px;
+    border: 10px solid lightgrey;
+    top: 200px;
+    width: 500px;
+}
+
+.contact_info { 
+    left: 160px;
+    top: 630px;
+    font-size: 30px;
+    position:relative
+    
+}
+
+#contact_links {
+    position: relative;
+    margin-left:60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+ 
