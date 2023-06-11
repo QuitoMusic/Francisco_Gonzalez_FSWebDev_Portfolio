@@ -266,16 +266,16 @@ html, body {
   /*----------------Media Queries-----------------------------*/
 
  
-  @media (max-width: 720px) {
+  @media (max-width: 1334px) {
     #projects {
       z-index: 2;
       position: relative;
       text-align: center;
       top: 50px;
     }
-  }
+  
 
-  @media (max-width: 720px) {
+ 
     #profile_pic {
       position: relative;
       top: 150px;
@@ -283,9 +283,7 @@ html, body {
       width: 500px;
   
     }
-  }
 
-  @media (max-width: 720px) {
     #leaf1{
       position: relative;
       width: 200px;
@@ -294,8 +292,7 @@ html, body {
       transform: rotate(350deg);
       margin: 0px;
     }
-  }
-    @media (max-width: 720px) {
+  
       #leaf2{
         position: relative;
         width: 200px;
@@ -303,9 +300,7 @@ html, body {
         left: 60px;
         transform: rotate(15deg);
       }
-    }
-  
-  @media (max-width: 720px) {
+    
     .logos{
       position: relative;
       z-index: 1;
@@ -313,9 +308,7 @@ html, body {
       left: 175px;
       top: 90px;
     }
-  }
-
-  @media (max-width: 720px) {
+  
     .card {
         background-color: #f5f5f5e4;
         display: flex;
@@ -325,14 +318,14 @@ html, body {
         height: 1500px; 
         margin: 0 auto; 
       }
-    }
+    
 
     .content {
      position: relative;
      top: -250px;
     }
   
-    @media (max-width: 720px) {
+    
     .ferns {
         position: absolute;
         display: flex;
@@ -342,7 +335,7 @@ html, body {
       }
     }
 
-    @media (max-width: 720px) {
+   
       .ivySticker{
         position: relative;
         top: 450px;
@@ -352,9 +345,7 @@ html, body {
         margin: 0px;
         padding: 0px;
       }
-      }
-   
-    @media (max-width: 720px){
+    
     .dropdown{
         position:absolute;
         display: flex;
@@ -363,10 +354,7 @@ html, body {
         top: 850px;
         
       }
-    }
-
-
-    @media (max-width: 720px) {
+    
       .navbar-item {
         position: relative;
           border-radius: 10px;
@@ -377,39 +365,28 @@ html, body {
           width: 500px;
           color: #24555c;
         }
-      }  
-
-
-      @media (max-width: 720px) {
+      
         .navbar-link {
              left: 25px;
             align-items: center;
           }
-        }  
-
-      @media (max-width: 720px) {
+       
         .column {
             position:relative;
             left: 100px;
           }
-        }
-
-        @media (max-width: 720px) {
+        
             .mountains {
                 position:relative;
                 top: 170px;
                left: 130px;
               }
-            }
-            
-                @media (max-width: 720px) {     
+             
                 .title{
                   top: 20px;
                   left: -20px;
                 }
-              }
-
-              @media (max-width: 720px) {
+           
                 .woodBanner {
                   position: relative;
                   top: 610px;
@@ -418,29 +395,22 @@ html, body {
                   width: 1800px; /* Adjust the width as needed */
                   height: 1000px; /* Adjust the height as needed */
                 }
-              }
-
-              @media (max-width: 720px) {
+              
                 .card-container {
                   position: relative;
                   flex-direction: column;
                   align-items: center;
                   top: 10px;
                 }
-              }
-
-              @media (max-width: 720px) {
+              
                 .about-section{
                   position: relative;
                   flex-direction: column;
                   align-items: center;
                   top: -680px;
                 }
-              }
-
-              @media (max-width: 720px) {
+              
                 #about_me{
                   position: relative;
                   top: 70px;
                 }
-              }
