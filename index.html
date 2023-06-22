@@ -18,129 +18,182 @@
 
 <body>
   <nav class="navbar" role="navigation" aria-label="dropdown navigation">
-    <div class="columns is-centered is-vcentered">
-      <div class="column is-narrow">
-        <img class="mountains" src="./assets/images/mountain-icon-png.webp" alt="Mountain_icon" style="width: 60px; position: relative;
-        z-index: 1; filter: invert(100%) drop-shadow(0px 4px 8px rgb(0, 0, 0));">
-      </div>
-      <div class="ferns">
-        <img src="./assets/images/plant-png-plants-transparent-png-pictures-icons-and-png-38.png" alt="ferns">
-      </div>
-     
-      <div class="column">
-        <p class="title name is-1 has-text-centered">
+    <div class="navbar-brand">
+      <a href="https://www.instagram.com/bear_hikes/">
+        <div class="column is-narrow">
+          <img class="mountains" src="./assets/images/mountain-icon-png.webp" alt="Mountain_icon">
+        </div>
+      </a>
+      <div>
+        <p class="name">
           Francisco González
         </p>
       </div>
-      <div class="dropdown" role="navigation" aria-label="dropdown navigation" >
-        <div class="navbar-item has-dropdown">
-          <div class="explore">
-          <a class="navbar-link" onclick="toggleDropdown()" style="color: black; ">
-            Explore
-          </a>
-        </div>
-          <div class="navbar-dropdown" id="dropdownMenu">
-            <a class="navbar-item" href="#projects">
-              Projects
-            </a>
-            <a class="navbar-item" href="#contactMe">
-              Developer Tools
-            </a>
-            <a class="navbar-item" href="#contactMe">
-              Hire Me!
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="logosContainer">
-        <img class="logos" src="./assets/images/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png" alt="WebDevLogos" style="width: 60px; position: relative;
-        z-index: 1; filter: invert(100%) drop-shadow(4px 4px 8px rgb(0, 0, 0));">
-        </div>
-  </nav>
-
-  
-
-  <div class="card is-centered">
-    <div class="card-content" id="paragraph">
-      <div class="content" id="biography">
-        <section class="profileImages">
-          <img id="profile_pic" src="./assets/images/318202930_10162306421898056_2731728784284841931_n.jpg" alt="Profile picture">
-        <div id="leaf1">
-          <img  src="./assets/images/Lovepik_com-400223192-plant-leaves.png" style="width: 300px; position: relative; left: -450px;margin: 0px; padding: 0px; filter: grayscale(100%) invert(100%) brightness(10);" alt="Leaves">
-        </div>
-        <div id="leaf2">
-          <img  src="./assets/images/Lovepik_com-400223192-plant-leaves.png" style="width: 300px; position: relative;left: 220px; top: -150px; transform: scaleX(-1); margin: 0px; padding: 0px; filter: grayscale(100%) invert(100%) brightness(10);rotate:(45deg);" alt="Leaves">
-        </section>
-      </div>
-        <section class="about-section">
-          <h1 class="AM-title">About Me:</h1>
-          <p id="about_me">
-        Hello and welcome! My name is Francisco González and I'm a Full-Stack Web Developer. Going back many years, I decided to become a Music teacher in the island of Puerto Rico.
-        This decision brought me a lot of exciting and emotional opportunities that, up to this day, have impacted hundreds of Puerto Rican children into their professional decision-making skills.
-        I wish I could have stayed longer on the island, but unfortunately, Hurricane María struck in 2017. This was a disaster for all inhabitants of the Caribbean since it was next to impossible for months to be sustainable.
-        Luckily, an opportunity arose, and my family and I decided to move to the beautiful state of Florida. Now, I come to you as an Uber driver to follow my journey into becoming a Full-Stack Web Developer.      
-      </p>
-      </section>
+      <a class="navbar-burger" id="burger" target="navbarMenu" onclick="toggleNavbar()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <div id="navbarMenu" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" onclick="scrollToSection1()">
+          <p class="menuItems">
+            Projects
+          </p>
+        </a>
+        <a class="navbar-item" onclick="scrollToSection2()">
+          <p class="menuItems">
+            Developer Tools
+          </p>
+        </a>
+        <a class="navbar-item" onclick="scrollToSection3()">
+          <p class="menuItems">
+            Social Media
+          </p>
+        </a>
+        <a class="navbar-item" onclick="scrollToSection4()">
+          <p class="menuItems">
+            Hire Me!
+          </p>
+        </a>
       </div>
     </div>
-  </div>
+  </nav>
+  
+  
 
   
-   <section id ="projects">
-      <h3 style="font-size: 40px; font-family: 'Playball', cursive;" >Projects:</h3>
-    </section>
- 
-  <div class="projectsContainer">
-    <section class="ivySticker">
-      <img id="ivy" src="./assets/images/112292-ivy-hanging-download-free-image.png" alt="Ivy">
-    </section>
-  
-    <section class="woodBanner">
-      <img id="wood" src="./assets/images/favpng_wood-desktop-wallpaper-high-definition-television-wallpaper.png" alt="wood">
-    </section>
-    <section class="woodBanner2">
-      <img id="wood" src="./assets/images/favpng_wood-desktop-wallpaper-high-definition-television-wallpaper.png" alt="wood">
-    </section>
-    <section class="woodBanner3">
-      <img id="wood" src="./assets/images/favpng_wood-desktop-wallpaper-high-definition-television-wallpaper.png" alt="wood">
-    </section>
+
+  <img id="profile_pic" src="./assets/images/318202930_10162306421898056_2731728784284841931_n.jpg" alt="Profile picture">
+  <img id="leaf1" src="./assets/images/Lovepik_com-400223192-plant-leaves.png" alt="Profile picture">
+  <img id="leaf2" src="./assets/images/Lovepik_com-400223192-plant-leaves.png" alt="Profile picture">
+  <div class="card">
+    <section class="about-section">
+      <h1 class="about-heading">About Me:</h1>
+      <p class="about_me">
+        Hello and welcome! My name is Francisco González, and I'm a Full-Stack Web Developer. Many years ago, I made the decision to become a Music teacher on the beautiful island of Puerto Rico. This path brought me countless exciting and emotionally fulfilling opportunities that have had a lasting impact on hundreds of Puerto Rican children, helping them develop valuable skills for their professional journeys.
+
+Unfortunately, my time on the island was cut short when Hurricane María struck in 2017. The devastation caused by the hurricane made it incredibly challenging for the community to rebuild and sustain itself for months. Despite the difficulties, my family and I saw a new opportunity and decided to embark on a new chapter in the vibrant state of Florida.
+
+Now, as a Full-Stack Web Developer, I bring to you a world of possibilities in designing and creating your webpage according to your desires. I am thrilled to offer my expertise and help you establish a strong online presence. Together, we can bring your vision to life and create a captivating digital experience for your audience.
+
+Thank you for considering my services, and I look forward to collaborating with you!   
+      </p>
+  </section>
   </div>
-       
-  <div class="card-container">
-          <article class="tile is-child notification is-vertical is-warning is-info" style=" background-color:rgba(45, 7, 7, 0.562);">
-            <p class="projectName" style="color: white;">Catch My Breath!</p>
+
+  <div class="card2" id="projects">
+    <section>
+      <h1 class="projects">Projects:</h1>
+
+      <article class="tile is-child notification is-vertical">
+            <p class="projectName" style="color: white; font-family: 'Playball', cursive;">Catch My Breath!</p>
             <p class="subtitle" style="color: white;">Air Quality Vacation Website</p>
           <div class="wrapper">
             <a class = "project_1" href="https://willzealot.github.io/Catchmybreathe/">
-              <img class ="CatchmyBreath_Screenshot" src="./assets/images/City Search Result.png"></a>
+              <video class ="CatchmyBreath_Screenshot"src="./assets/images/CatchMyBreath Video.mp4" muted loop>
+              </video></a>
             </div>
           </article>
 
-          <article class="tile is-child notification is-vertical is-warning is-info" style=" background-color:rgba(45, 7, 7, 0.562);">
-            <p class="projectName">Calendar</p>
-            <p class="subtitle" style="color: #f5f5f5;">Work day Scheduler
-            </p>
-            <div class="wrapper">
-            <a class = "project_2" href= "https://quitomusic.github.io/UCF_Challenge_5_Work_Day_Scheduler/">
+          <article class="tile2 is-child notification is-vertical">
+            <p class="projectName" style="color: white; font-family: 'Playball', cursive;">Calendar</p>
+            <p class="subtitle" style="color: white;">Work day Scheduler</p>
+          <div class="wrapper">
+            <a class = "project_1" href="https://quitomusic.github.io/UCF_Challenge_5_Work_Day_Scheduler/">
               <img class ="Password_Screenshot" src="./assets/images/Screenshot 2023-05-17 at 1.56.03 PM.png"></a>
             </div>
           </article>
-  
-          <article class="tile is-child notification is-warning is-info" style=" background-color:rgba(45, 7, 7, 0.562);">
-            <p class="projectName">Weather Dashboard</p>
-            <p class="subtitle" style="color: #f5f5f5;">Climate Website
-            </p>
-            <div class="wrapper">
-              <div class="tileWidth">
-            <a class = "project_3" href= "https://quitomusic.github.io/Weather_Dashboard/">
-              <img class ="weatherDashboard" src="./assets/images/Screenshot 2023-05-25 at 12.13.28 PM.png"></a>
+          <article class="tile3 is-child notification is-vertical">
+            <p class="projectName" style="color: white; font-family: 'Playball', cursive;">Weather Dashboard</p>
+            <p class="subtitle" style="color: white;">Climate Website</p>
+          <div class="wrapper">
+            <a class = "project_1" href="https://quitomusic.github.io/Weather_Dashboard/">
+              <video class ="Weather_Dashboard"src="./assets/images/WeatherForecast Video.mp4" muted loop>
+              </video></a>
             </div>
-          </div>
           </article>
       </div>
+  </section>
+  </div>
+
+<article>
+  <h1 class="devTools">Developer Tools:</h1>
+  <div class="card3" id="devTools">
+    <div class="wrapper6">
+      <a href="https://willzealot.github.io/Catchmybreathe/">
+        <img class="logosDev2"src="./assets/images/nodejs-logo.png"></a>
+      </div>
+      <div class="wrapper7">
+        <a href="https://willzealot.github.io/Catchmybreathe/">
+          <img class="logosDev3"src="./assets/images/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png"></a>
+        </div>
+        <div class="wrapper8">
+          <a href="https://willzealot.github.io/Catchmybreathe/">
+            <img class="logosDev4"src="./assets/images/React-icon.svg.png"></a>
+          </div>
+          <div class="wrapper9">
+            <a href="https://willzealot.github.io/Catchmybreathe/">
+              <img class="logosDev5"src="./assets/images/sql-database-generic-icon-380x512-ez505zus.png"></a>
+            </div>
+</article>
+  </section>
+  </div>
+
+  <article>
+  <div class="card4" id="socialMedia">
+    <h1 class="socialMediatxt">Social Media:</h1>
+    <div class="socialMedia">
+    <div class="wrapper4">
+      <a href="https://www.instagram.com/bear_hikes/"></a>
+        <img class="instagramLogo"src="./assets/images/insta-logo.png"></a>
+    </div>
+    <div class="wrapper3">
+      <a href="https://www.linkedin.com/in/francisco-gonz%C3%A1lez-7a9735271/">
+        <img class="linkedInLogo"src="./assets/images/Linkedin-logo-png.png"></a>
+    </div>
+    <div class="wrapper5">
+      <a href="https://twitter.com/Francisco_Quito"></a>
+        <img class="twitterLogo"src="./assets/images/580b57fcd9996e24bc43c53e.png"></a>
+      </div>
+    </div>
+    </article>
+    </section>
+    </div>
+ 
+
+
+  <footer class="footer">
+  <div class="content has-text-centered" style="font-size: 10px;">
+    <p>
+      Copyright (c) 2023 QuitoMusic|
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
+      
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
+      
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.</a>.
+    </p>
+  </div>
+</footer>
   
+
   <script src="./assets/script.js"></script>
 </body>
 </html>
+
+
 
 

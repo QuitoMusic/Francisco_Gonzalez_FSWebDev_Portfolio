@@ -1,505 +1,716 @@
-#about_me, #parragraph, #biography, .dropdown, .subtitle{ 
+#parragraph, #biography, .dropdown, .subtitle{ 
     font-family: 'Special Elite', cursive;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: auto;
+  height: 100px;
+  background-color: #09302feb !important;
+}
+
+#navbarMenu {
+  font-family: 'Playball', cursive;
+  position:relative;
+  display: flex;
+  z-index: 1; 
+  top: -2px; 
+  left: 160px;
+  text-shadow: 10px 0px 10px rgb(0, 0, 0);
+}
+
+.navbar-item{
+  font-size: 20px ;
+  text-align: center;
+  justify-content: center;
+  color: #f5f5f5;
+  height: 110px;
+  margin-right: 0px;
+  overflow: hidden;
+  position: relative;
+  width: 200px; 
+  transition: 1s ease;
+}
+
+.navbar-item:hover {
+  color: rgb(0, 0, 0) !important;
+ }
+
 
 html, body {
     background-image: url("./images/peakpx.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
   }
 
+  .mountains{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 
-  .columns {
-    margin-bottom: 0;
+    border-radius: 40px;
+    width: 60px; 
+    position: relative;
+    z-index: 1; 
+    filter: invert(100%) 
+   }
+
+   .name{
+    font-family: 'Playball', cursive;
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-size: 50px;
+    left: 10px;
+    top: 5px;
+    text-shadow: 10px 0px 10px rgb(0, 0, 0);
   }
 
-  .explore{
-    background-color: #ffffff92;
-    border-radius: 30px;
-    width: 500px;
+
+  .card {
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items:center;
+    width: 1200px;
+    height: 700px; 
+    margin: 0 auto; 
+    margin-top: 200px;
+    background-color: #09302feb !important
+  }
+  
+  .profileImages{
+    position: relative;
   }
 
- .mountains{
+  #profile_pic {
+    width: 400px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    margin-bottom: 0px;
+    z-index: 1;
+  }
+  
 
-  box-shadow: 0px 0px 5px rgb(0, 0, 0);
-  border-radius: 40px;
+    #leaf1{
+      width: 260px;
+      position: absolute;
+      top:56%;
+      left: 37%;
+      transform: translate(-50%, -50%);
+      margin-bottom: 0px;
+      z-index: 2;
+      filter: invert(100%) grayscale(100%) brightness(100);
+    }
 
- }
+    #leaf2{
+    width: 260px;
+    position: absolute;
+    top:56%;
+    left: 63%;
+    transform: translate(-50%, -50%) scaleX(-1);
+    margin-bottom: 0px;
+    z-index: 2;
+    filter: invert(100%) grayscale(100%) brightness(100); 
+    }
+
+    .about-heading {
+      position: absolute;
+      height: 150px; 
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 30px;
+    }
+
+    .about-section {
+      font-family: 'Special Elite', cursive;
+      position: relative;
+      color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; 
+      text-shadow: 10px 0px 10px rgb(0, 0, 0);
+    }
+    
+    .about_me {
+      font-size: 20px;
+      text-align: center;
+      height: 90px; 
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+
+/*------------------Project cards---------------*/
+
+/*----------Card 2-----------*/
+.card2 {
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 1200px; 
+  margin: 20px auto 0;
+  height: -100px;
+  background-color: #09302feb;
+}
+
+.projects{
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+  position:relative;
+ text-align: center;
+  z-index: 2;
+  color: #f5f5f5;
+  height: 500px;
+  text-shadow: 10px 0px 10px rgb(0, 0, 0);
+}
+
+.tile{
+  position: absolute;
+  left: 0;
+  margin: px;
+  width: 420px;
+  top: 100px;
+  background-color: #09302f00!important;
+}
+
+.tile3{
+  position: absolute;
+  left: 400px;
+  width: 420px;
+  top: 100px;
+  background-color: #09302f00!important;
+}
+
+.tile2{
+  position: absolute;
+  left: 810px;
+  width: 400px;
+  top: 100px;
+  background-color: #09302f00!important;
+}
+
+.wrapper{
+  overflow: hidden;
+  filter: brightness(90%);
+}
+
+.wrapper img{
+  width: 100%; height: 100%;
+}
+
+.wrapper:hover{
+  scale: 120%;
+  transition: scale 0.8s ease;
+  filter: brightness(100%);
+}
+
+.wrapper:not(:hover){
+  scale: 100%;
+  transition: scale 0.8s ease;
+}
+
+.projectsContainer{
+  position: relative;
+  top: -220px;
+}
+
+.projectName {
+  font-size: 40px;
+  text-align: center;
+  top: -5px;
+  position: relative;
+  z-index: 1;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.subtitle{
+color: #f5f5f5;
+text-align: center;
+text-shadow: 10px 0px 10px rgb(0, 0, 0);
+}
+
+.CatchmyBreath_Screenshot,
+.Password_Screenshot,
+.Weather_Dashboard {
+ position: relative;
+ margin: 10px 10px 10px 15px;
+ border-radius: 20px;
+ left:-15px;
+}
+
+/*----------Card 3-----------*/
+.card3 {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  width: 1200px; 
+  margin: 20px auto;
+  height: 240px;
+  background-color: #09302feb;
+}
+
+.devTools{
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+  position:relative;
+ text-align: center;
+ top: 20px;
+  z-index: 2;
+  color: #f5f5f5;
+  height: 0px;
+  text-shadow: 10px 0px 10px rgb(0, 0, 0);
+}
+
+.wrapper2{
+  width: 200px;
+  overflow: hidden;
+  height: 110px;
+
+}
+
+.logosDev1{
+  position: relative;
+  top: 15px;
+  
+}
+
+.logosDev2{
+  position: relative;
+  top: 40px;
+  
+}
+
+.logosDev3{
+  position: relative;
+  top: 50px;
+  left: -30;
+}
+
+.logosDev4{
+  position: relative;
+  top: 60px;
+  
+}
+
+.logosDev5{
+  position: relative;
+  top: 65px;
+  
+}
+
+.wrapper6{
+  width: 150px;
+  height: 80px;
+}
+
+.wrapper7{
+  width: 150px;
+  height: 110px;
+
+}
+
+.wrapper8{
+  width: 100px;
+  height: 150px;
+
+}
+
+.wrapper9{
+  width: 60px;
+  height: 150px;
+}
+
+
+
+.wrapper2:hover{
+  filter: brightness(150%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper2:not(:hover){
+  filter: brightness(75%);
+  transition: filter 0.8s ease;
+}
+
+
+.wrapper6:hover{
+  filter: brightness(120%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper6:not(:hover){
+  filter: brightness(75%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper7:hover{
+  filter: brightness(115%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper7:not(:hover){
+  filter: brightness(75%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper8:hover{
+  filter: brightness(150%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper8:not(:hover){
+  filter: brightness(75%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper9:hover{
+  filter: brightness(150%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper9:not(:hover){
+  filter: brightness(75%);
+  transition: filter 0.8s ease;
+}
+
+.wrapper6,
+.wrapper7,
+.wrapper8,
+.wrapper9 {
+  margin: 80px; /* Add margin for spacing between elements */
+}
+/*----------Card 4-----------*/
+.card4 {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column; /* Change flex-direction to column */
+  justify-content: center; /* Change justify-content to center */
+  align-items: center; /* Add align-items: center */
+  position: relative;
+  width: 1200px;
+  margin: 20px auto 0;
+  height: 170px;
+  background-color: #09302feb;
+}
+
+.socialMedia {
+  display: flex; /* Add display:flex */
+  align-items: center; /* Add align-items: center to horizontally align elements */
+}
+
+.wrapper3,
+.wrapper4,
+.wrapper5 {
+  margin: 0 80px; /* Add margin for spacing between elements */
+}
+
+/* Adjust the order of the social media elements in HTML markup */
+.linkedInLogo{
+    position: relative;
+  filter: invert(100%) grayscale(100%) brightness(150);
+  width: 80px;
+}
+.instagramLogo{
+  position: relative;
+  filter: invert(100%) grayscale(100%) brightness(150);
+  width: 40px; /* Add width to maintain consistent size */
+}
+.twitterLogo {
+  position: relative;
+  filter: invert(100%) grayscale(100%) brightness(150);
+  width: 70px; /* Add width to maintain consistent size */
+}
+
+.socialMediatxt {
+  font-family: 'Playball', cursive;
+  color: white;
+  font-size: 50px;
+  text-shadow: 10px 0px 10px rgb(0, 0, 0);
+}
+
+
+.wrapper3:hover,
+.wrapper4:hover,
+.wrapper5:hover {
+  transform: scale(1.5); /* Change scale to transform: scale() */
+  transition: transform 0.8s ease;
+}
+
+.wrapper3:not(:hover),
+.wrapper4:not(:hover),
+.wrapper5:not(:hover) {
+  transform: scale(1); /* Change scale to transform: scale() */
+  transition: transform 0.8s ease;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #09302feb !important;
+  color: white;
+}
+
+.content {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-burger {
+  color: white;
+}
+
+  /*----------------Media Queries-----------------------------*/
+ 
+  @media (max-width: 480px) {
 
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    width: 4000px;
-    height: 100px;
-    background-color: #24555c;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    height: 40px;
   }
 
-  
-  .ferns {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    width: 700px;
-    left: -90px;
+  .navbar-burger{
+    position: relative;
+    top: 5px;
+    left: 55px;
   }
 
-
-  .dropdown {
-    position:relative;
-    display: flex;
-    z-index: 1; 
-    left: 480px;
-    top: 70px;
-    font-size: 20px ;
-  }
-  
-  .navbar-link {
-    text-align: center;
-    border-radius: 30px;
-    background-color: #ffffff46 !important
-  }
-  .navbar-item:hover {
-    border-width: 50px;
-    
+  #navbarMenu{
+    position: relative;
+    top: 354px;
+    left: -350px;
+    background-color: #09302f;
   }
 
-  .navbar-dropdown {
+  .navbar-item{
+    width: 400px;
+    height: 160px;
+    color:#ffffff;
+    font-size: 40px;
+  }
+
+  .navbar-menu {
     display: none;
-    background-color:#f5f5f570;
-  }
-
-  .show {
-    display: block;
-
-  }
-
-  .logos{
-    position: relative;
-    left: 290px;
-    width: 200px !important;
-  }
-
-  .AM-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
   }
   
-  #about_me {
-    text-align: center;
-    font-size: 20px;
+  .navbar-menu.active {
+    display: block;
+  }
+  
+  .menuItems{
+    position: relative;
+    top: 30px;
   }
 
-  .about-section{
-    font-family:'Special Elite', cursive;
+  .name {
     font-size: 30px;
-    position: relative;
-    top: -600px;
+    top: 7px;
+    left: 15px;
   }
 
-  .profileImages{
-    position: relative;
-    top: -200px;
-  }
-  
+.mountains{
+  position:relative;
+  width: 30px; 
+  top: 4px;
+  left: -20px;
+ }
 
-  #profile_pic {
-    width: 500px;
-    display: block;
-    position: relative;
-    left:30%;
-    top: 400px;
-    align-items: center;
-    border-radius: 50%;   
-    }
-
-    #leaf1{
-      position: relative;
-      transform: rotate(80deg);
-      top: 210px;
-      left: -90px;
-    }
-
-    #leaf2{
-      transform: rotate(5deg);
-    }
-    
-  
-  .card {
-    background-color: #f5f5f5e4;
-    display: flex;
-    position: relative;
-    justify-content:center;
-    align-items:center;
-    width: 1300px;
-    height: 1100px; 
-    margin: 0 auto; 
-    margin-top: 20px;
-    top: 50px;
-  }
-  .card-content {
-    text-align: center;
-    position: relative;
-    top: 400px;
-  }
-  
-  #biography {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
-
-
-
-/*------------------Project cards---------------*/
-
-
-.woodBanner{
+.card {
+  border-radius: 20px;
+  display: flex;
   position: relative;
-  top: 50px;
+  justify-content:center;
+  align-items:center;
+  width: 1200px;
+  height: 1000px; 
+  margin: 0 auto; 
+  margin-top: 150px;
 }
 
-#wood {
-  position: relative;   
-    width: 3000px;
+#profile_pic {
+  width: 250px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+
+  #leaf1{
+    width: 170px;
+    top:48%;
+    left: 30%;
   }
 
-    .title, .projectName {
-      font-family: 'Playball', cursive;
-      top: -5px;
-      position: relative;
-      z-index: 1;
-      color: #f5f5f5;
-      text-shadow: 2px 2px 10px rgb(0, 0, 0);
-    }
-
-    .projectsContainer{
-      position: relative;
-      top: -720px;
-    }
-
-    #projects{
-      position:relative;
-     text-align: center;
-      top:300px;
-      z-index: 2;
-      color: #f5f5f5;
-      text-shadow: 0px 0px 10px rgb(255, 255, 255);
-    }
-    .card-container {
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .projectName{
-      font-size: 40px;
-      text-align: center;
-    }
-
-  .subtitle{
-    color: #f5f5f5;
-    text-align: center;
+  #leaf2{
+  width: 170px;
+  top:48%;
+  left: 70%;
   }
 
-  .wrapper{
-    overflow: hidden;
-    
-  }
-
-  .wrapper img{
-    width: 100%; height: 100%;
-    
-  }
-
-
-  .ivySticker{
-    position: relative;
-    top:600px;
-    filter: brightness(0.7);
-    z-index: 1;
-    right: 10px;
-    padding: 0px;
-    
+  .about-heading {
+    height: 420px; 
   }
   
-#ivy{
-  width: 3000px;
-}
-  .wrapper:hover{
-    scale: 110%;
-    transition: scale 400ms;
-    
+  .about_me {
+    font-size: 15px;
+    text-align: center;
+    height: 360px; 
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
-  .notification{
-    position: absolute;
-    top: -1300px;
-    z-index: 1;
+  .card2 {
+    width: 390px; 
+    height: 1100px;
+  }
+
+  .projects{
+    font-size: 50px;
+    position:relative;
+    top: -270px;
   }
   
   .tile{
+    left: -10px;
+    top:100px;
+  }
+  
+  .tile3{
+    position: absolute;
+    left: -10px;
+    top: 440px;
+  }
+  
+  .tile2{
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    top: 770px;
+  }
+  
+  .projectName {
+    font-size: 30px;
+    text-align: center;
+    top: -5px;
+  }
+  
+  .subtitle{
+ font-size: 20px;
+  }
+/*---------2nd card------------*/
+  
+.card3 {
+  width: 390px;
+  height: 600px;
+}
+
+#devTools{
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+  .wrapper6, .wrapper7,.wrapper8 ,.wrapper9{
+    margin: 0px 40px; 
+  }
+
+  .wrapper6{
     position: relative;
-    margin: 10px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.658);
+    width: 200px;
+    height: 100px;
+    left: -40px;
+    top: -50px;
   }
 
-  .CatchmyBreath_Screenshot,
-  .Password_Screenshot,
-  .weatherDashboard {
+  .wrapper7{
     position: relative;
-    margin: 10px 10px 10px 15px;
-    border-radius: 20px;
-    left:-15px;
+    width: 200px;
+    height: 100px;
+    left: -40px;
+    top: -40px;
   }
 
- 
-  
-
-
-
-  /*----------------Media Queries-----------------------------*/
- 
-  @media (max-width: 1334px) {     
-    .ferns {
-      position: absolute;
-      display: flex;
-      align-items: center;
-      width: 700px;
-      top: -120px;
-      right: 70px;
-    }
+  .wrapper8{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 10px;
+    top: -10px;
   }
 
-  @media (max-width: 1334px) {     
-    .title{
-      top: 10px;
-        left: -100px;
-      }
-    }
-
-    @media (max-width: 1334px) {     
-      .mountains {
-            position:relative;
-            top: 160px;
-           left: 50px;
-          }
-        }
-
-        @media (max-width: 1334px) {     
-          .logos{
-          position: relative;
-          z-index: 1;
-          width: 200px !important;
-          left: 95px;
-          top: 40px;
-        }
-      }
-
-      @media (max-width: 1334px) {
-        #profile_pic {
-          position: relative;
-          top: 190px;
-          left: 0px;
-          width: 500px;
-      
-        }
-      }
-
-      @media (max-width: 1334px) {    
-        #leaf1{
-          position: relative;
-          width: 150px;
-          top: 0px;
-          left: 430px;
-          transform: rotate(350deg);
-          margin: 0px;
-        }
-      }
-      @media (max-width: 1334px) {     
-         #leaf2{
-            position: relative;
-            width: 150px;
-            top: 0px;
-            left: -50px;
-            transform: rotate(15deg);
-          }
-        }
-
-        @media (max-width: 1334px) {     
-          .card {
-              background-color: #f5f5f5e4;
-              display: flex;
-              justify-content:center;
-              align-items:center;
-              width: 3000px;
-              height: 1500px; 
-              margin: 0 auto; 
-            }
-          }
-
-        @media (max-width: 1334px) {     
-          .about-section{
-            position: relative;
-            flex-direction: column;
-            align-items: center;
-            top: -590px;
-          }
-        }
-
-        @media (max-width: 1334px) {     
-          #about_me{
-            position: relative;
-            top: 70px;
-          }
-        }
-
-        @media (max-width: 1334px) {     
-          .dropdown{
-          position:relative;
-          display: flex;
-          z-index: 1; /* Ensure the dropdown is displayed on top of the ferns */
-          left: 10px;
-          top: 600px;
-        }
-      }
+  .wrapper9{
+    position: relative;
+    width: 60px;
+    height: 100px;
+    left: 30px;
+    top: 4%;
+  }
+  .logosDev2,
+.logosDev3,
+.logosDev4,
+.logosDev5 {
   
-      @media (max-width: 1334px) {     
-        .navbar-item {
-          position: relative;
-            border-radius: 10px;
-            text-align: center;
-            background-color: #ffffff;
-            font-size: 20px;
-            width: 350px;
-            color: #24555c;
-          }
-        }  
+  left: 100px;
+  top: 130px;
+}
+
+
+  .card4 {
+    width: 390px;
+    height: 120px;
+  }
+
+  .socialMediatxt {
+    position: relative;
+   font-size: 30px;
+   top: -15px;
+  }
   
-        @media (max-width: 1334px) {     
-          .navbar-link {
-               left: 20px;
-              align-items: center;
-            }
-          }  
-
-          @media (max-width: 1334px) {     
-            .explore {
-              
-            width: 340px;
-              }
-            }
-
-            @media (max-width: 1334px) {     
-              .ivySticker{
-                position: relative;
-                top: 620px;
-                z-index: 1;
-                width: 500px;
-                left: -80px;
-                margin: 0px;
-                padding: 0px;
-              }
-              }
-
-              @media (max-width: 1334px) {     
-                .woodBanner {
-                  position: relative;
-                  top: 425px;
-                  width: 688px; /* Adjust the width as needed */
-                  height: 2000px; /* Adjust the height as needed */
-                  margin: 0px;
-                  padding: 0px;
-                }
-              }
-              @media (max-width: 1334px) {     
-                .woodBanner2 {
-                  position: relative;
-                  top: -1200px;
-                  width: 688px; /* Adjust the width as needed */
-                  height: 2000px; /* Adjust the height as needed */
-                }
-              }
-              @media (max-width: 1334px) {     
-                .woodBanner3 {
-                  position: relative;
-                  top: -2820px;
-                  width: 688px; /* Adjust the width as needed */
-                  height: 2000px; /* Adjust the height as needed */
-                }
-              }
-
-              @media (max-width: 1334px) {
-                #projects {
-                  z-index: 2;
-                  position: relative;
-                  text-align: center;
-                  top: -10px;                
-                }
-              }
-
-              @media (max-width: 1334px) {     
-                .card-container {
-                  position: relative;
-                  flex-direction: column;
-                  align-items: center;
-                  top: -4900px;
-                }
-              }
-
-
-              @media (max-width: 1334px) {     
-                .content {
-               position: relative;
-               top: -250px;
-              }
-              }
-
-              @media (max-width: 1334px) {     
-                .column {
-                  position:relative;
-                  left: 100px;
-                }
-              }
-
-             
-
-
-
-
- 
-
+  .wrapper3,
+  .wrapper4,
+  .wrapper5 {
+    margin: 0px 40px; /* Add margin for spacing between elements */
+  }
   
-
-  
-
-  
-  
-    
-
- 
-
-   
-
-    
-   
-     
-
-        
-
-       
-            
-           
-
-             
-
-             
-
-             
+  /* Adjust the order of the social media elements in HTML markup */
+  .linkedInLogo{
+      position: relative;
+    width: 140px;
+  }
+  .instagramLogo{
+    position: relative;
+    width: 100px; 
+  }
+  .twitterLogo {
+    position: relative;
+    width: 120px; 
+  }
+}             
