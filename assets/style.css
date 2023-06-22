@@ -486,8 +486,6 @@ p {
 
     html, body {
       background-image: url("./images/plant.jpg");
-      background-size: cover;
-      background-attachment: fixed;
     }
 
   .navbar {
