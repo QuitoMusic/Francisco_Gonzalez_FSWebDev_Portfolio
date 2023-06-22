@@ -1,4 +1,4 @@
-//----------------drop down menu functionality-----------------//
+//----------------drop down menu-----------------//
 
 function toggleNavbar() {
   var navbarMenu = document.getElementById("navbarMenu");
