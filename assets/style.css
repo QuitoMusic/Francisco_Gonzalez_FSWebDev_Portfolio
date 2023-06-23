@@ -494,6 +494,8 @@ p {
 
     html, body {
       background-image: url("./images/wp5435867-weed-plant-tumblr-wallpapers.jpg");
+      max-width: 100%; 
+      height: auto; 
     }
 
   .navbar-burger{
