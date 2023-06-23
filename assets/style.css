@@ -481,22 +481,20 @@ p {
 }
 
   /*----------------Media Queries-----------------------------*/
- 
-  @media (max-width: 480px) {
-
-    html, body {
-      background-image: url("./images/plant.jpg");
-      background-repeat: no-repeat;
-  background-position: center center;
-  background-size:  390px 844px;
-    }
-
+  
+  @media (max-width: 1020px) {
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
   }
+  }
+  @media (max-width: 480px) {
+
+    html, body {
+      background-image: url("./images/plant.jpg");
+    }
 
   .navbar-burger{
     position: relative;
